@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="initial-scale=1, width=device-width" charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+    </script>
+    <script src="script.js" defer></script>
+    <link href="styles.css" rel="stylesheet">
+    <title>My Webpage</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+        <button class="btn btn-warning" id="changeColorBtn">Change Background Color</button>
+      <h1 class="text-center">Sarvesh</h1>
+      <p class="text-center"><strong>Welcome</strong>, you have successfully discovered Sarvesh's (<em>my</em>) webpage, quite an accomplishment if I do say so myself. Don't feel shy to pat yourself on the back.</p>
+      <hr>
+      <p>Now that you've managed to stumble into my domain, it's only polite to let you know about my mortal appearance, here, feast your eyes.</p>
+      <div class="text-center">
+        <img src="./assets/sarvesh.JPG" alt="handsome guy" class="img-fluid rounded-circle">
+      </div>
+      <p>Now that you've managed to peel your eyes off of that gorgeous face, let me enlighten you about my person. I've gone through a lot of trouble and created three webpages specially for you, that's right, I care that much about you, a complete stranger, definitely not something I'm doing because of a stupid problem set. Anyways, pick your poison.</p>
+      <br>
+      <ul>
+        <li><a href="./cool.html" class="btn btn-primary">Click here to see a cool photo of your truly</a></li>
+        <li><a href="./hobbies.html" class="btn btn-success">Click here to learn about my hobbies (they are as cool as that photo you just saw)</a></li>
+        <li><a href="./about.html" class="btn btn-info">Click here to learn more about me</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
