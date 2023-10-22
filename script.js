@@ -5,11 +5,12 @@ document.getElementById("changeColorBtn").addEventListener("click", function () 
 
 // Counter for button clicks
 let clickCount = 0;
-document.getElementById("clickCounter").textContent = `Button clicks: ${clickCount}`;
+let coolButton = document.getElementById("coolButton");
+coolButton.textContent = `Very Cool Button`;
 
-document.getElementById("coolButton").addEventListener("click", function () {
+coolButton.addEventListener("click", function () {
     clickCount++;
-    document.getElementById("clickCounter").textContent = `Button clicks: ${clickCount}`;
+    coolButton.textContent = `Button clicks: ${clickCount}`;
 });
 
 // Function to get a random color
