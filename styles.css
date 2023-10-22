@@ -1,0 +1,32 @@
+/* styles.css */
+
+/* 1. Selector to style the <h1> element in the first page */
+body > h1 {
+    font-size: 36px;
+    color: #007bff;
+    text-align: center;
+  }
+
+  /* 2. Selector to style the <a> elements within the <ul> on the first page */
+  #link-list a {
+    text-decoration: none;
+    color: #4caf50;
+  }
+
+  /* 3. Selector to style the <h2> element in the third page */
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  /* 4. Selector to style the <li> elements within the <ol> with class 'hobby-list' on the third page */
+  ol.hobby-list li {
+    margin-left: 20px;
+  }
+
+  /* 5. Selector to style the <img> elements on the fourth page */
+  body img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
